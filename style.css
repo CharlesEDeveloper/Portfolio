@@ -1,0 +1,229 @@
+
+* {
+  margin: 0;
+  text-align: center;
+
+}
+
+
+
+/*
+header, main, footer {
+    background-color: #a3ddcb;
+}
+
+
+*/
+
+header {
+  background-color: #66BFBF;
+  color:black;
+  height: 60px;
+
+}
+
+main {
+  background-color: #bce6eb;
+  line-height: 2;
+
+
+}
+footer {
+    background-color: #66BFBF;
+}
+
+hr {
+  border-color:white;
+  border-style:none;
+  border-top-style: dotted;
+  border-bottom: 30px;
+  border-width: 8px;
+
+  height: 2px;
+  width: 5%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+      font-size: 1.2em;
+}
+
+
+
+li {
+
+  text-align: center;
+}
+
+span {
+  font-weight: normal;
+}
+
+a:link {
+  text-decoration: none;
+  
+
+}
+
+nav {
+text-align:right;
+margin-right: 2rem;
+}
+
+/* ============== CLASS ============== */
+
+.head {
+padding-top: 3px;
+}
+
+.menu {
+  text-align: right;
+}
+
+.myname, .title {
+    font-family: 'Pacifico', cursive;
+}
+.title{
+  padding-top: 20px;
+  color:#66BFBF;
+}
+
+.mypic {
+  padding-top: 1rem;
+height:250px;
+
+}
+
+.pic {
+  margin-top: 20px;
+}
+
+.classcont {
+
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2em;
+
+}
+
+.body2 {
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.greetings {
+  padding-top: 10px;
+  padding-bottom: 1px;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 4.3em;
+}
+
+.greetings2 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 2.7em;
+}
+
+.greetings, .greetings2 {
+  line-height: 1  ;
+}
+
+.myname {
+  margin-top: 10px;
+  font-size: 2.3em;
+
+}
+
+.cloud {
+height: 80px;
+width: 120px;
+position: relative;
+top: -220px;
+}
+.cloud2{
+  height: 80px;
+  width: 120px;
+  position: relative;
+    top: -100px;
+}
+.mountain{
+position: relative;
+height: 450px;
+width: 500px;
+}
+
+.intro, .lastpage {
+
+}
+
+.footer-link {
+  font-family: 'Londrina Solid', cursive;
+  color: #11999E;
+}
+
+.socialmedia {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  height: 2.2rem;
+}
+
+.thebody {
+  margin-top: 1rem;
+}
+
+.map {
+height: 15rem;
+}
+/* ============== ID ============== */
+#boy {
+  height: 72px;
+  position: absolute;
+  left: 85px;
+  top: 20px;
+  background-color: #f8f7de;
+  border-radius: 50%;
+
+}
+
+#boy:hover {
+
+  background-color: black;
+}
+
+/* ============== Button ============== */
+.BUTTON_YRP {
+   background: #3D94F6;
+
+	
+   border-radius: 10px;
+   color: white;
+   font-family: Brush Script MT;
+   font-size: 2rem;
+   font-weight: 50;
+   padding: 5px;
+
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-right: 1rem;
+}
+
+.BUTTON_YRP:hover {
+
+   background: #1E62D0;
+
+}
+
+.abtn {
+  color:white;
+  font-family: 'Londrina Solid', cursive;
+}
