@@ -70,7 +70,7 @@ span {
 
 a:link {
   text-decoration: none;
-  
+
 
 }
 
@@ -104,7 +104,7 @@ height:250px;
 }
 
 .pic {
-  margin-top: 20px;
+  margin-top: 5rem;
 }
 
 .classcont {
@@ -169,15 +169,11 @@ width: 500px;
   color: #11999E;
 }
 
-.socialmedia {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  height: 2.2rem;
-}
+
 
 .thebody {
   margin-top: 1rem;
+  float: right;
 }
 
 .map {
@@ -203,7 +199,7 @@ height: 15rem;
 .BUTTON_YRP {
    background: #3D94F6;
 
-	
+
    border-radius: 10px;
    color: white;
    font-family: Brush Script MT;
