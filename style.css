@@ -208,7 +208,7 @@ width: 500px;
   font-size: 2rem;
 }
 
-
+   
 /* ============== M A P ============== */
 .map-wrapper {
   max-width: 500px;
@@ -216,7 +216,7 @@ width: 500px;
   text-align: center;
   display: inline-block;
 }
-  
+
 .googlemap {
   width: 100%;
 }
