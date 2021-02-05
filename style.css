@@ -30,6 +30,9 @@ main {
 }
 footer {
     background-color: #66BFBF;
+    font-family: 'Londrina Solid', cursive;
+    color: #11999E;
+    line-height: 2rem;
 }
 
 hr {
@@ -61,7 +64,7 @@ p {
 
 li {
 
-  text-align: center;
+
 }
 
 span {
@@ -160,8 +163,14 @@ height: 450px;
 width: 500px;
 }
 
-.intro, .lastpage {
+.intro {
+ text-align: center;
+ display: inline-block;
+}
 
+.orderlist {
+  text-align: center;
+  display: inline-block; 
 }
 
 .footer-link {
@@ -169,7 +178,13 @@ width: 500px;
   color: #11999E;
 }
 
-
+.socialmedia {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 2.2rem;
+  position: relative;
+  left:-2.5rem;
+}
 
 .thebody {
   margin-top: 1rem;
