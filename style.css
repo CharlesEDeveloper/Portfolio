@@ -62,18 +62,8 @@ p {
 
 
 
-li {
-
-
-}
-
-span {
-  font-weight: normal;
-}
-
 a:link {
-  text-decoration: none;
-
+  text-decoration: underline;
 
 }
 
@@ -170,7 +160,7 @@ width: 500px;
 
 .orderlist {
   text-align: center;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .footer-link {
@@ -188,12 +178,10 @@ width: 500px;
 
 .thebody {
   margin-top: 1rem;
+  margin-right:5rem;
   float: right;
 }
 
-.map {
-height: 15rem;
-}
 /* ============== ID ============== */
 #boy {
   height: 72px;
@@ -210,31 +198,25 @@ height: 15rem;
   background-color: black;
 }
 
+
 /* ============== Button ============== */
-.BUTTON_YRP {
-   background: #3D94F6;
 
-
-   border-radius: 10px;
-   color: white;
-   font-family: Brush Script MT;
-   font-size: 2rem;
-   font-weight: 50;
-   padding: 5px;
-
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-right: 1rem;
-}
-
-.BUTTON_YRP:hover {
-
-   background: #1E62D0;
-
-}
 
 .abtn {
-  color:white;
+  color:black;
   font-family: 'Londrina Solid', cursive;
+  font-size: 2rem;
+}
+
+
+/* ============== M A P ============== */
+.map-wrapper {
+  max-width: 500px;
+  border: 5px solid #1687a7;
+  text-align: center;
+  display: inline-block;
+}
+
+.googlemap {
+  width: 100%;
 }
