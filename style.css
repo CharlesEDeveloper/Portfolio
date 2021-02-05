@@ -31,8 +31,9 @@ main {
 footer {
     background-color: #66BFBF;
     font-family: 'Londrina Solid', cursive;
-    color: #0f3057;
+    color: black;
     line-height: 2rem;
+    text-decoration: none;
 }
 
 hr {
@@ -62,10 +63,6 @@ p {
 
 
 
-a:link {
-  text-decoration: none;
-
-}
 
 nav {
 text-align:right;
@@ -165,7 +162,7 @@ width: 500px;
 
 .footer-link {
   font-family: 'Londrina Solid', cursive;
-  color: #black;
+  color:black;
   text-decoration: none;
 }
 
@@ -199,9 +196,7 @@ width: 500px;
   background-color: black;
 }
 
-#ink1, #ink2 {
-text-decoration: underline;
-}
+
 
 /* ============== Button ============== */
 
@@ -219,7 +214,7 @@ text-decoration: underline;
   border: 5px solid #1687a7;
   text-align: center;
   display: inline-block;
-}  
+}
 
 .googlemap {
   width: 100%;
